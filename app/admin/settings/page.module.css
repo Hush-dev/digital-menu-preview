@@ -1,0 +1,90 @@
+.root {
+  padding: 32px 24px 64px;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 0.3s ease;
+}
+
+.header {
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 30px;
+  color: var(--brown);
+  margin-bottom: 4px;
+}
+
+.sub {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardTitle {
+  font-size: 16px;
+  color: var(--brown);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  gap: 16px;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.rowLabel {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.rowValue {
+  font-size: 14px;
+  color: var(--brown);
+}
+
+.link {
+  color: var(--caramel);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dangerText {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.signOutBtn {
+  background: var(--red-light);
+  color: var(--red);
+  border: 1px solid #f5c6cb;
+  padding: 10px 22px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.signOutBtn:hover {
+  background: var(--red);
+  color: #fff;
+}

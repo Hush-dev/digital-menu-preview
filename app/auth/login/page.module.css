@@ -1,0 +1,70 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: var(--cream);
+  background-image: radial-gradient(
+    ellipse at 60% 20%,
+    rgba(192, 121, 65, 0.08) 0%,
+    transparent 60%
+  );
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 40px 32px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: var(--shadow-xl);
+  animation: fadeIn 0.4s ease;
+}
+
+.header {
+  margin-bottom: 28px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+.logo em {
+  color: var(--caramel);
+  font-style: normal;
+}
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 6px;
+  color: var(--brown);
+}
+
+.sub {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.backLink {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--caramel);
+}

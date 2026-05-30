@@ -1,0 +1,44 @@
+.wrap {
+  overflow-x: auto;
+  background: var(--warm);
+  border-bottom: 1px solid var(--border);
+  padding: 0 16px;
+  scrollbar-width: none;
+  position: sticky;
+  top: 64px;
+  z-index: 90;
+}
+
+.wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.inner {
+  display: flex;
+  gap: 4px;
+  padding: 12px 0;
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid transparent;
+  font-size: 13px;
+  font-weight: 500;
+  background: transparent;
+  color: var(--muted);
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.btn.active {
+  background: var(--brown);
+  color: #fff;
+  border-color: var(--brown);
+}
+
+.btn:not(.active):hover {
+  border-color: var(--caramel);
+  color: var(--caramel);
+}
